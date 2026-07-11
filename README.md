@@ -8,7 +8,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](#)
 
-<img src="https://via.placeholder.com/1200x600?text=EngageX+AI+CRM+Hero+Screenshot" alt="EngageX AI CRM Hero" width="100%" />
+<img width="1900" height="877" alt="image" src="https://github.com/user-attachments/assets/b28a1e82-3561-4f97-8543-4bb67a356862" />
+
 
 </div>
 

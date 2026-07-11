@@ -10,12 +10,17 @@ migrate = Migrate()
 jwt = JWTManager()
 
 def create_app(config_class=Config):
+    import os
     app = Flask(__name__)
     app.config.from_object(config_class)
     app.url_map.strict_slashes = False
     
+    frontend_url = os.environ.get('FRONTEND_URL', 'https://assign-crm.vercel.app')
+    
     CORS(app, origins=[
+        frontend_url,
         "https://ai-crm-platform-steel.vercel.app",
+        "https://assign-crm.vercel.app",
         "http://localhost:3000",
         "http://localhost:5173",
         "http://localhost:5174",
@@ -31,7 +36,7 @@ def create_app(config_class=Config):
             return response
 
         is_local_origin = re.match(r"^http://(localhost|127\.0\.0\.1):\d+$", origin) is not None
-        is_prod_origin = origin == "https://ai-crm-platform-steel.vercel.app"
+        is_prod_origin = origin == frontend_url or origin == "https://assign-crm.vercel.app" or origin.endswith(".vercel.app")
         if is_local_origin or is_prod_origin:
             response.headers['Access-Control-Allow-Origin'] = origin
             response.headers['Vary'] = 'Origin'

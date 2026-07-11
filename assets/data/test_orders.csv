@@ -1,0 +1,6 @@
+order_number,customer_email,amount,order_date,status,channel,items
+ORD-001,testuser1@example.com,150.00,2026-07-01T10:00:00Z,completed,online,Widget A
+ORD-002,testuser2@example.com,75.50,2026-07-02T11:30:00Z,completed,online,Widget B
+ORD-003,testuser3@example.com,200.00,2026-07-03T14:15:00Z,completed,in-store,Widget C,Widget D
+ORD-004,testuser1@example.com,50.00,2026-07-05T09:45:00Z,completed,online,Widget A
+ORD-005,testuser4@example.com,300.00,2026-07-10T16:20:00Z,pending,online,Premium Widget

@@ -1,0 +1,6 @@
+email,first_name,last_name,phone,city,total_spent,order_count,churn_score
+testuser1@example.com,Alice,Smith,555-0100,New York,1250.50,12,0.15
+testuser2@example.com,Bob,Jones,555-0101,Los Angeles,340.00,3,0.85
+testuser3@example.com,Charlie,Brown,555-0102,Chicago,5000.00,45,0.05
+testuser4@example.com,Diana,Prince,555-0103,Seattle,0.00,0,0.99
+testuser5@example.com,Ethan,Hunt,555-0104,Miami,780.25,6,0.40

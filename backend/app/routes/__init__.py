@@ -1834,8 +1834,13 @@ def get_purchase_insights():
     top_categories = [{"name": row[0], "revenue": row[1] or 0.0, "share": ((row[1] or 0) / total_revenue) * 100} for row in top_categories_rows]
 
     # Revenue Trends (Group by Month)
+    if db.engine.name == 'postgresql':
+        month_expr = db.func.to_char(Order.order_date, 'YYYY-MM')
+    else:
+        month_expr = db.func.strftime('%Y-%m', Order.order_date)
+
     trend_rows = db.session.query(
-        db.func.strftime('%Y-%m', Order.order_date).label('month'),
+        month_expr.label('month'),
         db.func.sum(Order.amount).label('revenue')
     ).filter(Order.workspace_id == workspace_id).group_by('month').order_by('month').limit(12).all()
     

@@ -4,7 +4,7 @@
 
 **An AI-powered multi-tenant CRM and Marketing Automation platform for modern businesses.**
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live_Preview-2ea44f?style=for-the-badge&logo=vercel)](#)
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Preview-2ea44f?style=for-the-badge&logo=vercel)](https://assign-crm.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](#)
 

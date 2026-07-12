@@ -85,15 +85,15 @@ By consolidating customer data, audience segmentation, campaign orchestration, a
 
 | Dashboard | Customer Management |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350?text=Dashboard+Screenshot" alt="Dashboard" /> | <img src="https://via.placeholder.com/600x350?text=Customer+Management+Screenshot" alt="Customer Management" /> |
+| <img src="./assets/data/dashboard.png" alt="Dashboard" /> | <img src="./assets/data/customer_management.png" alt="Customer Management" /> |
 
 | Audience Builder | Journey Canvas |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350?text=Audience+Builder+Screenshot" alt="Audience Builder" /> | <img src="https://via.placeholder.com/600x350?text=Journey+Builder+Screenshot" alt="Journey Builder" /> |
+| <img src="./assets/data/audience_builder.png" alt="Audience Builder" /> | <img src="./assets/data/journey_builder.png" alt="Journey Builder" /> |
 
 | Campaign Studio | AI Command Center |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350?text=Campaign+Studio+Screenshot" alt="Campaign Studio" /> | <img src="https://via.placeholder.com/600x350?text=AI+Command+Center+Screenshot" alt="AI Command Center" /> |
+| <img src="./assets/data/campaign_studio.png" alt="Campaign Studio" /> | <img src="./assets/data/ai_command_center.png" alt="AI Command Center" /> |
 
 ---
 

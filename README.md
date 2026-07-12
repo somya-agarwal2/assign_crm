@@ -243,7 +243,7 @@ To test the application locally without creating a new workspace, you can use th
 
 **Admin User**
 - **Email:** `admin@xeno.ai`
-- **Password:** `password123`
+- **Password:** `admin123`
 
 *Note: Ensure you have run the data seeding script (`python seed.py`) if setting up a fresh database.*
 
